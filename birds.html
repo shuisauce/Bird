@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Birds — Our Birding Log</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body onload="BirdApp.initBirds()">
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Our Birding Log</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="birds.html">All Birds</a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <h1 class="h1">All Birds</h1>
+      <p class="sub">Scroll through everything we've logged. Use search and filters to narrow things down.</p>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search by name or place…">
+        <select id="region"></select>
+        <select id="year"></select>
+      </div>
+      <div class="small" id="result-count"></div>
+    </div>
+  </header>
+  <main class="container">
+    <section id="grid" class="card-grid"></section>
+    <button id="loadMore" class="load-more">Load more</button>
+  </main>
+  <footer>
+    <div class="container small">Tip: add more rows to <code>data/birds.csv</code> to update this page.</div>
+  </footer>
+</body>
+</html>

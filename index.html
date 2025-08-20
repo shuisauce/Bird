@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Birding Log</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body onload="BirdApp.initIndex()">
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Our Birding Log</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="birds.html">All Birds</a>
+        <a href="#howto">How we log</a>
+      </div>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="container">
+      <h1 class="h1">Birds we've seen together</h1>
+      <p class="sub">A simple field journal of our sightings with links to where we found them and page references to our Audubon book.</p>
+      <div class="stats">
+        <div class="stat"><div class="label">Total sightings</div><div class="value" id="stat-total">—</div></div>
+        <div class="stat"><div class="label">Unique species</div><div class="value" id="stat-species">—</div></div>
+        <div class="stat"><div class="label">Places visited</div><div class="value" id="stat-places">—</div></div>
+        <div class="stat"><div class="label">Years recorded</div><div class="value" id="stat-years">—</div></div>
+      </div>
+      <a href="birds.html">Browse all birds →</a>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Recent sightings</h2>
+    <div id="recent" class="card-grid"></div>
+    <hr id="howto">
+    <h2>How we log birds</h2>
+    <p>We keep a simple spreadsheet you can export as a CSV to update this website. Every row is a sighting. At minimum include the date and common name. If you add latitude and longitude, the map link is automatic.</p>
+    <ul>
+      <li><strong>Audubon page:</strong> we note the page number (and edition if needed) for quick reference.</li>
+      <li><strong>Photos:</strong> put images into the <code>images/</code> folder and add the filename in the <code>photo</code> column.</li>
+      <li><strong>Map:</strong> either paste a Google Maps URL in <code>maps_url</code> or provide <code>latitude</code> and <code>longitude</code>.</li>
+    </ul>
+    <p class="small">Site generated with plain HTML + JS and hosted on GitHub Pages.</p>
+  </main>
+  <footer>
+    <div class="container small">© 2025 Our Birding Log</div>
+  </footer>
+</body>
+</html>
