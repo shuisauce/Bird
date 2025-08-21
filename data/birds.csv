@@ -1,6 +1,7 @@
 date,common_name,scientific_name,location_name,latitude,longitude,city,region,country,photo,notes,audubon_page,book_edition,maps_url
-2025-05-14,American Robin,Turdus migratorius,Backyard,42.3314,-83.0458,Detroit,Michigan,USA,images/placeholder.jpg,"Feeding chicks in nest",398,North American Birds (7th),,
-2025-06-02,Great Blue Heron,Ardea herodias,Elizabeth Park,42.2579,-83.2091,Trenton,Michigan,USA,images/placeholder.jpg,"Fishing in canal",126,North American Birds (7th),,
-2025-06-21,Baltimore Oriole,Icterus galbula,Kensington Metropark,42.5385,-83.6170,Milford,Michigan,USA,images/placeholder.jpg,"Heard song first",512,North American Birds (7th),,
-2025-07-05,Red-tailed Hawk,Buteo jamaicensis,Hines Park,42.3679,-83.4699,Westland,Michigan,USA,images/placeholder.jpg,"Soaring over meadow",243,North American Birds (7th),,
-2025-07-29,Common Loon,Gavia immer,Grand Marais,46.6709,-85.9862,Alger County,Michigan,USA,images/placeholder.jpg,"Diving near shore",45,North American Birds (7th),,
+2025-08-20,Blue Heron,,Erie Marsh Preserve,,,,Erie,Michigan,USA,images/blue_heron.jpg,,,, 
+2025-08-20,Cormorant,,Erie Marsh Preserve,,,,Erie,Michigan,USA,images/cormorant.jpg,,,, 
+2025-08-20,Egret,,Erie Marsh Preserve,,,,Erie,Michigan,USA,images/egret.jpg,,,, 
+2025-08-20,Killdeer,,Erie Marsh Preserve,,,,Erie,Michigan,USA,images/killdeer.jpg,,,, 
+2025-08-20,Pelican,,Erie Marsh Preserve,,,,Erie,Michigan,USA,images/pelican.jpg,,,, 
+2025-08-20,Yellowleg,,Erie Marsh Preserve,,,,Erie,Michigan,USA,images/yellowleg.jpg,,,, 
